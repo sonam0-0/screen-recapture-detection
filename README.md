@@ -34,11 +34,6 @@ Screen-Recapture-Detection/
 ├── dataset/
 │   ├── real/
 │   └── screen/
-│
-├── model/
-│   └── model.keras
-│
-├── train.py
 ├── predict.py
 ├── requirements.txt
 ├── README.md
