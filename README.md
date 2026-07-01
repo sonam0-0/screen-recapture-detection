@@ -6,17 +6,16 @@ A deep learning-based image classification system that detects whether an input 
 
 ## Features
 
-* ✅ Binary image classification (Real vs Screen)
-* ✅ Transfer Learning using **MobileNetV2**
-* ✅ Fast and lightweight deep learning model
-* ✅ Image preprocessing using OpenCV
-* ✅ Command-line prediction interface
-* ✅ TensorFlow/Keras implementation
-* ✅ Efficient inference with confidence score
+* Binary image classification (Real vs Screen)
+* Transfer Learning using **MobileNetV2**
+* Fast and lightweight deep learning model
+* Image preprocessing using OpenCV
+* Command-line prediction interface
+* TensorFlow/Keras implementation
+* Efficient inference with confidence score
 
----
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python 3.x
 * TensorFlow / Keras
@@ -25,9 +24,9 @@ A deep learning-based image classification system that detects whether an input 
 * NumPy
 * Matplotlib
 
----
 
-## 📂 Project Structure
+
+##  Project Structure
 
 ```text
 Screen-Recapture-Detection/
@@ -46,9 +45,9 @@ Screen-Recapture-Detection/
 └── ...
 ```
 
----
 
-## 📊 Dataset
+
+##  Dataset
 
 The dataset contains two image categories:
 
@@ -57,9 +56,9 @@ The dataset contains two image categories:
 
 The images are automatically preprocessed before training.
 
----
 
-## 🧠 Model Architecture
+
+##  Model Architecture
 
 This project uses **MobileNetV2**, a lightweight convolutional neural network designed for efficient image classification.
 
@@ -74,9 +73,9 @@ This project uses **MobileNetV2**, a lightweight convolutional neural network de
 7. Save the trained model
 8. Predict unseen images
 
----
 
-## 📈 Model Performance
+
+##  Model Performance
 
 | Metric              | Value                |
 | ------------------- | -------------------- |
@@ -89,9 +88,9 @@ This project uses **MobileNetV2**, a lightweight convolutional neural network de
 
 > **Note:** Replace the accuracy values above with your actual training results if they are different.
 
----
 
-## ⚙️ Installation
+
+##  Installation
 
 Clone the repository:
 
@@ -106,9 +105,9 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
----
 
-## ▶️ Train the Model
+
+##  Train the Model
 
 Run:
 
@@ -118,9 +117,9 @@ python train.py
 
 The trained model will be saved automatically in the `model/` directory.
 
----
 
-## 🔍 Predict an Image
+
+##  Predict an Image
 
 Run:
 
@@ -142,9 +141,9 @@ Prediction : REAL
 Latency    : 32 ms
 ```
 
----
 
-## 📌 Future Improvements
+
+##  Future Improvements
 
 * Web application using Flask or Streamlit
 * Real-time webcam detection
@@ -153,24 +152,6 @@ Latency    : 32 ms
 * Larger and more diverse dataset
 * Mobile deployment using TensorFlow Lite
 
----
 
-## 📄 License
 
-This project is intended for educational and research purposes.
 
----
-
-## 👩‍💻 Author
-
-**Sona Yadav**
-
-B.Tech (Artificial Intelligence & Machine Learning)
-
-Bennett University
-
-GitHub: https://github.com/yourusername
-
----
-
-⭐ If you found this project useful, consider giving it a star on GitHub!
